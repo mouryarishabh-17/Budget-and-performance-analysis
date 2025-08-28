@@ -58,11 +58,11 @@ The dashboard allows for filtering and slicing data by Department_Name and Statu
 The following SQL queries were used to extract, join, and transform the data from the underlying database for analysis:
 
 1. Retrieve Employee and Department Data
-   
+    
 SELECT * FROM employees;
 SELECT * FROM departments;
 
-2. Join Employees and Departments
+3. Join Employees and Departments
    
 SELECT *
 FROM employees AS e
